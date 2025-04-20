@@ -342,7 +342,7 @@ function App() {
                 <button onClick={() => setShowAddExpense(!showAddExpense)}>
                   {showAddExpense ? "Cancel" : "Add Expense"}
                 </button>
-                getPerson(account)
+
                 <button onClick={loadExpenses}>Refresh Expenses</button>
                 <div
                   className="change-username-form"
